@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --white-blue: #f8f4eb;
+  --light-blue: #91c9e4;
+  --mid-blue: #759bc2;
+  --blue: #4882aa;
+  --dark-blue: #1f3543;
+  --sugar: #c4c4c4;
+  --light-blue-gradient: #91c8e4de;
+}
+
+@theme inline {
+}
+
+@media (prefers-color-schema: dark) {
+  :root {
+  }
+}
+body {
+}
+
+/* Sizes Of Screens  */
+
+/*
+ sm =>	40rem (640px)	@media (width >= 40rem) { ... }
+
+ md =>	48rem (768px)	@media (width >= 48rem) { ... }
+
+ lg => 	64rem (1024px)	@media (width >= 64rem) { ... }
+
+ xl => 	80rem (1280px)	@media (width >= 80rem) { ... }
+
+ 2xl =>	96rem (1536px)	@media (width >= 96rem) { ... } 
+
+*/
+
+/* 
+
+ max-sm => 	@media (width < 40rem) { ... }
+
+ max-md =>	@media (width < 48rem) { ... }
+
+ max-lg =>	@media (width < 64rem) { ... }
+
+ max-xl =>	@media (width < 80rem) { ... }
+
+ max-2xl =>	@media (width < 96rem) { ... } 
+ 
+ */

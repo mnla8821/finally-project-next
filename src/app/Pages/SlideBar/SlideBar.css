@@ -1,0 +1,128 @@
+.swiper-button-next,
+.swiper-button-prev {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue);
+  margin: 150px 75px;
+}
+
+.swiper-button-next:after {
+  color: white;
+  font-weight: bolder;
+}
+.swiper-button-prev:after {
+  color: white;
+  font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+  .swiper-backface-hidden .swiper-slide {
+    width: 45% !important;
+  }
+  .title-slide {
+    font-size: 50px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .swiper-backface-hidden .swiper-slide {
+    width: 35% !important;
+  }
+}
+
+@media (min-width: 1150px) {
+  .swiper-backface-hidden .swiper-slide {
+    width: 25% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin-top: 250px;
+    margin-bottom: 0;
+  }
+  .title-slide {
+    font-style: 40px;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin: 250px 10px 0 10px;
+  }
+  .parent-swiper {
+    height: 113vh;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin: 270px 10px 0 10px;
+  }
+  .parent-swiper {
+    height: 135vh;
+  }
+  .title-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 560px) {
+  .title-slide {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-slide {
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin: 200px 10px 0 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .title-slide {
+    font-size: 27px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin: 200px 0px 0 0px;
+  }
+}
+@media (max-width: 360px) {
+  .title-slide {
+    font-size: 24px;
+    padding: 0px;
+
+    margin-top: 20px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin: 150px 0px 0 0px;
+  }
+}
