@@ -1,6 +1,6 @@
 import Image from "next/image";
 import homeImg from "../../../../public/img/home.jpg";
-import Button from "../../Component/Button/page";
+import Button from "../../Component/Button/Button";
 const Landing = () => {
   return (
     <div className="w-full h-full  bg-gradient-to-b from-[var(--mid-blue)] from-8%  via-[var(--light-blue)] via-90%   to-white to-2%  flex flex-col  items-center relative">
