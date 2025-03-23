@@ -1,3 +1,3 @@
-export { default as Box } from "./Box/page";
-export { default as SlideBar } from "./SlideBar/page";
-export { default as Landing } from "./Landing/page";
+export { default as Box } from "./Box/Box";
+export { default as SlideBar } from "./SlideBar/SlideBar";
+export { default as Landing } from "./Landing/Landing";
