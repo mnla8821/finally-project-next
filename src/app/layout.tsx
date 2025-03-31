@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "./Component/Header/Header";
-import Footer from "./Pages/Footer/Footer";
+import Navbar from "./Component/Navbar/Navbar";
+
 
 export const metadata: Metadata = {
   title: "المبدع العربي",
@@ -11,14 +11,15 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode;  
 }>) {
+
   return (
     <html lang="en">
-      <body>
-        <Header />
+      <body>      
+        <Navbar>
         {children}
-        <Footer />
+        </Navbar> 
       </body>
     </html>
   );

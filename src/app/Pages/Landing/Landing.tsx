@@ -1,9 +1,11 @@
+
 import Image from "next/image";
 import homeImg from "../../../../public/img/home.jpg";
 import Button from "../../Component/Button/Button";
+import Link from "next/link";
 const Landing = () => {
   return (
-    <div className="w-full h-full  bg-gradient-to-b from-[var(--mid-blue)] from-8%  via-[var(--light-blue)] via-90%   to-white to-2%  flex flex-col  items-center relative">
+    <div className="w-full h-full  bg-gradient-to-b from-[var(--mid-blue)] from-8%  via-[var(--light-blue)] via-90% to-white to-2%  flex flex-col  items-center relative">
       <div className="w-full  h-[100vh] flex items-center max-lg:flex-col max-lg:h-auto  ">
         <div className=" w-full h-fit flex justify-center items-center  max-lg:pt-10 ">
           <Image
@@ -23,7 +25,11 @@ const Landing = () => {
             تسعى منصتنا التعليمية الإلكترونية المجانية، التي أسسها فريق من
             الشباب الملتزمين بالإنسانية وحب الخير، إلى تقديم بيئة تعلّم متميزة.
           </p>
-          <Button>إبدأ رحلتك معنا</Button>
+          <Button>
+            <Link href="/Login" className="py-5 px-14 text-2xl rounded-2xl font-bold" >
+              ابدأ رحلتك معنا
+            </Link>
+          </Button>
         </div>
       </div>
       <div className="bg-[var(--white-blue)] border-4 border-[var(--light-blue)]  w-[85%] h-[25%] rounded-2xl p-2 flex justify-around max-md:w-[95%]  max-lg:mt-4 ">

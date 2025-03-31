@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link"
 import Image from "next/image";
 import logo from "../../../../public/img/logo.jpg";
 import { RiMenu3Line } from "react-icons/ri";
@@ -14,9 +15,9 @@ const Header = () => {
         <div className="cursor-pointer text-2xl text-[var(--blue)] bg-white font-bold rounded-full w-20 h-20 flex justify-center items-center translate">
           En
         </div>
-        <div className="cursor-pointer text-2xl text-[var(--white-blue)] bg-[var(--blue)] p-4 rounded-3xl font-bold log-in">
+        <Link href="/Login" className="cursor-pointer text-2xl text-[var(--white-blue)] bg-[var(--blue)] p-4 rounded-3xl font-bold log-in">
           تسجيل الدخول
-        </div>
+        </Link>
       </div>
       <div
         className=" menu w-[70%]"

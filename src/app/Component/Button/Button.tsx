@@ -6,7 +6,7 @@ interface propsButton {
 
 const Button: React.FC<propsButton> = (props) => {
   return (
-    <div className="w-fit h-fit py-5 px-14 bg-[var(--blue)] text-2xl text-white font-bold rounded-2xl cursor-pointer hover:bg-[var(--dark-blue)]">
+    <div className="w-fit h-fit p-2 bg-[var(--blue)]  text-white  rounded cursor-pointer hover:bg-[var(--dark-blue)]">
       <div>{props.children}</div>
     </div>
   );

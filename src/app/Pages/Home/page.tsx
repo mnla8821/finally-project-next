@@ -1,4 +1,4 @@
-import { Box, SlideBar, Landing } from "..";
+import { Box, SlideBar, Landing , Info } from "..";
 
 const Home = () => {
   return (
@@ -6,6 +6,7 @@ const Home = () => {
       <Landing />
       <Box />
       <SlideBar />
+      <Info />
     </div>
   );
 };
