@@ -26,7 +26,7 @@ const Landing = () => {
             الشباب الملتزمين بالإنسانية وحب الخير، إلى تقديم بيئة تعلّم متميزة.
           </p>
           <Button>
-            <Link href="/Login" className="py-5 px-14 text-2xl rounded-2xl font-bold" >
+            <Link href="/SignUp" className="py-5 px-14 text-2xl rounded-2xl font-bold" >
               ابدأ رحلتك معنا
             </Link>
           </Button>

@@ -10,7 +10,7 @@ interface propsNavbar {
 const Navbar : React.FC<propsNavbar>= (props) => {
 
   const pathname = usePathname();
-  const [isLogin ,setIsLogin] = useState(false)
+  const [isLogin , setIsLogin] = useState(true)
   useEffect(()=> {
     if(pathname === '/Login' || pathname === '/SignUp')
       setIsLogin(true)

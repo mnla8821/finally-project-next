@@ -15,7 +15,7 @@ const Header = () => {
         <div className="cursor-pointer text-2xl text-[var(--blue)] bg-white font-bold rounded-full w-20 h-20 flex justify-center items-center translate">
           En
         </div>
-        <Link href="/Login" className="cursor-pointer text-2xl text-[var(--white-blue)] bg-[var(--blue)] p-4 rounded-3xl font-bold log-in">
+        <Link href="/SignUp" className="cursor-pointer text-2xl text-[var(--white-blue)] bg-[var(--blue)] p-4 rounded-3xl font-bold log-in">
           تسجيل الدخول
         </Link>
       </div>
